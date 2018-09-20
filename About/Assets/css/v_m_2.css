@@ -1,0 +1,173 @@
+@media screen and (max-width: 1040px) {
+	.v_m header section {
+		margin-left: 35px;
+	}
+	.v_m header #video {
+		margin-right: 90px;
+	}
+	.v_m header #video img {
+		width: 92%;
+	}
+}
+@media screen and (max-width: 1001px) {
+	.v_m header section {
+		width: 32%;
+	}
+	.v_m header #video {
+		margin-right: 80px;
+		width: 55%;
+	}
+}
+@media screen and (max-width: 900px) {
+	.v_m header section .line {
+		display: none;
+	}
+	.v_m header section {
+		width: 100%;
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+	}
+	.v_m header section div {
+		margin: 0px 5%;
+		width: 40%;
+	}
+	.v_m header section div img {
+		width: 25%;
+		margin: 0;
+	}
+	.v_m header section div div {
+		margin-top: 20px;
+	}
+	.v_m header #video {
+		margin: 30px 24% 30px 11%;
+		text-align: center;
+		width: 65%;
+	}
+	.v_m header #video img {
+		margin-bottom: -150px;
+	}
+	.v_m header footer h1 {
+		font-size: 17pt;
+	}
+	.v_m header footer h2 {
+		font-size: 13pt;
+	}
+}
+@media screen and (max-width: 801px) {
+	.v_m header section div {
+		width: 45%;
+		margin: 0 2.5%;
+	}
+	.v_m header footer h1 {
+		font-size: 15pt;
+	}
+	.v_m header footer h2 {
+		font-size: 11pt;
+	}
+}
+@media screen and (max-width: 715px) {
+	.v_m header section div {
+		width: 50%;
+		margin: 0;
+	}
+	.v_m header footer h1 {
+		font-size: 13pt;
+	}
+	.v_m header footer h2 {
+		font-size: 9pt;
+	}
+}
+@media screen and (max-width: 670px) {
+	.v_m header #video img {
+		margin-bottom: -130px;
+	}
+}
+@media screen and (max-width: 644px) {
+	.v_m header section div img {
+		width: 20%;
+	}
+	.v_m header section div div {
+		width: 75%;
+	}
+	.v_m header #video {
+		margin: 30px 21% 30px 14%;
+	}
+}
+@media screen and (max-width: 590px) {
+	.v_m header section div div h2 {
+		font-size: 15pt;
+	}
+	.v_m header section div div p {
+		font-size: 10pt;
+	}
+	.v_m header #video {
+		width: 75%;
+		margin: 30px 14% 30px 11%;
+	}
+	.v_m header footer h1 {
+		font-size: 10pt;
+	}
+	.v_m header footer h2 {
+		font-size: 8pt;
+	}
+}
+@media screen and (max-width: 475px) {
+	.v_m header #video img {
+		margin-bottom: -100px;
+	}
+	.v_m header footer h1 {
+		font-size: 8pt;
+	}
+	.v_m header footer h2 {
+		font-size: 7pt;
+	}
+}
+@media screen and (max-width: 400px) {
+	.v_m header section {
+		flex-wrap: wrap;
+		justify-content: flex-start;
+	}
+	.v_m header section div {
+		width: 85%;
+		margin-top: 14px;
+	}
+	.v_m header section div div {
+		margin-top: 14px;
+	}
+	.v_m header #video {
+		width: 92%;
+		margin: 30px 0;
+	}
+}
+@media screen and (max-width: 370px) {
+	.v_m header section div div h2 {
+		font-size: 13pt;
+	}
+	.v_m header footer h1 {
+		font-size: 7pt;
+	}
+	.v_m header footer h2 {
+		font-size: 6pt;
+	}
+}
+@media screen and (max-width: 325px) {
+	.v_m header section div {
+		width: 100%;
+	}
+	.v_m header section div div h2 {
+		font-size: 12pt;
+	}
+	.v_m header section div div p {
+		font-size: 9pt;
+	}
+	.v_m header #video img {
+		margin-bottom: -90px;
+	}
+	.v_m header footer h1 {
+		font-size: 6pt;
+	}
+	.v_m header footer h2 {
+		font-size: 5pt;
+	}
+}
