@@ -1,0 +1,1 @@
+!function(a){"use strict";a.extend(a.fn,{scissor:function(){return this.each(function(){var b=a(this),c={width:b.width()/2,height:b.height(),overflow:"hidden"},d=b.clone(!0),e=a("<div />",{css:c}),f=a("<div />",{css:c});b.after(e),e.after(f),b.css({marginLeft:0}).appendTo(e),d.css({marginLeft:-c.width}).appendTo(f)}),this}})}(jQuery);
