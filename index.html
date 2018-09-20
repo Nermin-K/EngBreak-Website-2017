@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Parallax Content Slider with CSS3 and jQuery" />
+	<meta name="keywords" content="slider, animations, parallax, delayed, easing, jquery, css3, kendo UI" />
+	<meta name="description" content="Responsive Multi-Level Menu: Space-saving drop-down menu with subtle effects" />
+	<meta name="keywords" content="multi-level menu, mobile menu, responsive, space-saving, drop-down menu, css, jquery" />
+	<meta name="author" content="Codrops" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:site_name" content="Eng Break"/>
+	<meta property="og:title" content="Eng Break'17"/>
+	<meta property="og:description" content="Eng Break non-Profit Orgainzation which is organized by students for students Founded in 2011 and Held annually in faculty of Engineering, Cairo university">
+	<meta property="og:image" content="WebsiteAssets/icons/1.png">
+	<meta property="og:url" content="http://engbreak.org">
+	<link rel="shortcut icon" href="WebsiteAssets/icons/lo.ico">
+
+	<title>Eng Break'17</title>
+	<link rel="shortcut icon" href="../favicon.ico">
+	<link rel="stylesheet" type="text/css" href="WebsiteAssets/CSS/default.css" />
+	<link rel="stylesheet" type="text/css" href="nav/CSS/component.css" />
+	<link rel="stylesheet" type="text/css" href="WebsiteAssets/CSS/demo.css" />
+	<link rel="stylesheet" type="text/css" href="WebsiteAssets/CSS/style2.css" />
+	<link rel="stylesheet" type="text/css" href="WebsiteAssets/CSS/footer.css" />
+	<link rel="stylesheet" type="text/css" href="WebsiteAssets/CSS/responsiveSlider.css" />
+	<link rel="stylesheet" href="nav/CSS/HomeStyle.css">
+	<link rel="stylesheet" href="WebsiteAssets/CSS/preIndexRes.css">
+	<link rel="stylesheet" href="nav/CSS/hamburgerMenuStyle.css">
+	<noscript>
+		<link rel="stylesheet" type="text/css" href="WebsiteAssets/CSS/nojs.css" />
+	</noscript>
+</head>
+
+<body>
+	<script src="js/modernizr.custom.js"></script>
+	<div class="container">
+		<div class="nav_bar">
+			<ul class="EBlogo">
+				<li>
+					<a href="" class="home"> <img src="WebsiteAssets/icons/logo.png" alt="logo"> </a>
+				</li>
+			</ul>
+			<ul class="rightNav">
+				<li> <a href="index.html" class="hovNav item home">Home</a> </li>
+				<li> <a href="About/about.html" class="hovNav item">About</a> </li>
+				<li class="dropdown item">
+					<a class="dropbtn">projects </a>
+					<div class="dropdown-content">
+						<a href="Events/Board form/index.html" target="_blank">Board</a>
+						<a href="Events/Opening/index.html" target="_blank">opening</a>
+						<a href="Events/Recuitment/index.html" target="_blank">academic</a>
+						<a href="Events/competation/index.html" target="_blank">competition</a>
+						<a href="Events/lbedank7k/lebadnk_Haq.html" target="_blank">le-badanek haq</a>
+						<a href="Events/let3arfo/index.html" target="_blank">le-taarafo</a>
+					</div>
+				</li> <img class="dropArrow item" src="WebsiteAssets/icons/Drop-Menu-Arrow.png">
+				<li> <a href="History/history.html" class="hovNav item">History</a> </li>
+				<li> <span class="highlightStore item"><a href="Moments/moments.html" class="hovNav item">Momento</a></span> </li>
+			</ul>
+			<!--right nav-->
+			<!--Hambugrer Menu-->
+			<button class="hamburger">&#9776;</button>
+			<button class="cross">&#735;</button>
+			<div class="menu">
+				<ul>
+					<a href="index.html">
+						<li class="x home">HOME</li>
+					</a>
+					<a href="About/about.html">
+						<li class="x">ABOUT</li>
+					</a>
+					<a href="#">
+						<li class="submenuList">
+							<span class="ProjectArrowLeft">&#8249;</span>PROJECTS<span class="ProjectArrow">&#8250;</span>
+						</li>
+						<ul class="submenu">
+							<a href="Events/Board form/index.html" target="_blank">
+								<li>Board</li>
+							</a>
+							<a href="Events/Opening/index.html" target="_blank">
+								<li>Opening</li>
+							</a>
+							<a href="Events/Recuitment/index.html" target="_blank">
+								<li>Academic</li>
+							</a>
+							<a href="Events/competation/index.html" target="_blank">
+								<li>Competition</li>
+							</a>
+							<a href="Events/lbedank7k/lebadnk_Haq.html" target="_blank">
+								<li>Le-badanek haq</li>
+							</a>
+							<a href="Events/let3arfo/index.html" target="_blank">
+								<li>Le-taarafo</li>
+							</a>
+						</ul>
+					</a>
+					<a href="History/history.html">
+						<li class="x">History</li>
+					</a>
+					<a href="Moments/moments.html">
+						<li class="x">Momento</li>
+					</a>
+				</ul>
+			</div>
+			<!-- end of right nav -->
+
+		</div>
+
+		<div id="da-slider" class="da-slider">
+
+			<div class="da-slide">
+				<h2 class="da-slide-first-div-h2">About</h2>
+				<p class="da-slide-first-div-p">As a six-year old student activity, we hope to help making this
+					<br/>community a better place by creating some bright points
+					<br/>which can influence others and make a real change.</p>
+				<a href="About/about.html" class="da-link da-slide-first-div-a">Learn more ></a>
+				<div class="da-img"><img src="WebsiteAssets/images/1.png" alt="image01" class="da-img-1" />
+				</div>
+			</div>
+
+			<div class="da-slide">
+				<h2 class="da-slide-sec-div-h2">Momento</h2>
+				<p class="da-slide-sec-div-p">We have been collecting out unique and distinctive
+					<br/>moments throughout the year. Check them out!</p>
+				<a href="Moments/moments.html" class="da-link da-slide-sec-div-a">catch our special moments ></a>
+				<div class="da-img"><img src="WebsiteAssets/images/2.png" alt="image01" class="da-img-2" />
+				</div>
+			</div>
+
+			<div class="da-slide">
+				<h2 class="da-slide-third-div-h2">Contact us</h2>
+				<p class="da-slide-third-div-p">we would love to hear from you if you have any questions, comments
+					<br>or concerns. Email us and follow our social media accounts.</p>
+				<a href="#" class="da-link da-slide-third-div-a">Get in touch with us ></a>
+				<div class="da-img"><img src="WebsiteAssets/images/3.png" alt="image01" class="da-img-3" />
+				</div>
+			</div>
+
+			<nav class="da-arrows">
+				<span class="da-arrows-prev"> <img src="WebsiteAssets/images/arrowsL.png" class="da-arrows-prev-img"></span>
+				<span class="da-arrows-next"> <img src="WebsiteAssets/images/arrowsR.png" class="da-arrows-next-img"></span>
+			</nav>
+		</div>
+
+		<!-- footer -->
+		<div class="FooterDiv">
+			<a class="Info-Div" href="#"><img src="WebsiteAssets/icons/Info-Icon.png" id="Info-Icon">
+			</a>
+			<footer class="footer">
+				<h3>follow us</h3>
+				<div class="socialMedia">
+					<a href="https://www.facebook.com/engbreakCUFE/?ref=br_rs"><img src="WebsiteAssets/icons/Facebook-Logo.png">
+					</a>
+					<a href="https://twitter.com/EngBreak" class="icon fa-twitter"><img src="WebsiteAssets/icons/Twitter-Logo.png">
+					</a>
+					<a href="https://www.instagram.com/eng_break/?ref=badge" class="fa-istagram"><img src="WebsiteAssets/icons/Istagram-Logo.png">
+					</a>
+					<a href="https://www.youtube.com/user/EngBreak2016"><img src="WebsiteAssets/icons/Youtube-Logo.png">
+					</a>
+				</div>
+				<form action="WebsiteAssets/contact.php" id="contact_form" method="post">
+					<div class="form">
+						<input type="text" name="name" placeholder="Name" class="input_Name" required>
+						<input type="email" name="email" placeholder="E-mail" class="input_Email" required>
+						<br>
+						<textarea type="text" name="message" placeholder="Your Message" required></textarea>
+						<br>
+						<input type="submit" name="submit" value="SEND">
+					</div>
+				</form>
+
+			</footer>
+		</div>
+		<a href="#"><img src="WebsiteAssets/icons/Home-Icon.png" class="home-icon">
+		</a>
+	</div>
+	<!-- pre-index -->
+	<div class="homepicture">
+		<img src="WebsiteAssets/icons/Card2.png" class="card">
+		<img src="WebsiteAssets/icons/small-Card.png" class="smallCard">
+		<div class="onThe-image">
+			<h1>eng break</h1>
+			<p class="p1">welcome to the place where you can have a variety of
+				<br> choices, actions, success or whatever you wanna achieve!</p>
+			<p class="p1forSmall">welcome to the place where you can
+				<br> have a variety of choices, actions, success or
+				<br> whatever you wanna achieve!</p>
+			<button id="homeGo">let's go</button>
+			<p class="p2">©2017 All Rights Reserved, made with love and coffee by eng break's IT team.</p>
+		</div>
+	</div>
+
+	<!-- Scripts -->
+	<script src="js/jquery.min.js"></script>
+	<script src="WebsiteAssets/js/main.js"></script>
+	<script src="nav/js/nav.js"></script>
+	<script src="jsConnection/connectionjs.js"></script>
+	<script src="WebsiteAssets/js/connection-home.js"></script>
+	<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="WebsiteAssets/js/pre-index.js"></script>
+	<script type="text/javascript" src="js/jquery.cslider.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			$('#da-slider').cslider({
+				// autoplay : true,
+				bgincrement: 450
+			});
+		});
+	</script>
+</body>
+
+</html>
