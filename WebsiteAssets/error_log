@@ -1,0 +1,1 @@
+[07-May-2017 14:54:11 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/engbrcdg/public_html/WebsiteAssets/contact.php on line 2

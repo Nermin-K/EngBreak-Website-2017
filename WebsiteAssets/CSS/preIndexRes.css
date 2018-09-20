@@ -1,0 +1,270 @@
+@media screen and (max-width: 1125px) {
+	.homepicture {
+		width: 1059px;
+		height: 533px;
+		position: absolute;
+		top: 50px;
+		left: 35px;
+	}
+	.onThe-image {
+		position: absolute;
+		bottom: 40px;
+		left: 10px;
+	}
+	.onThe-image h1 {
+		font-size: 130pt;
+		margin-top: -15px;
+		margin-bottom: 5px;
+	}
+	.onThe-image .p1 {
+		font-size: 12pt;
+		margin-bottom: 55px;
+	}
+	.onThe-image button {
+		font-size: 12pt;
+		padding: 15px 50px;
+		margin-bottom: 50px;
+	}
+	.onThe-image .p2 {
+		font-size: 8pt;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.homepicture {
+		width: 958px;
+		height: 482px;
+		position: absolute;
+		top: 85px;
+		left: 35px;
+	}
+	.onThe-image {
+		position: absolute;
+		bottom: 30px;
+		left: 10px;
+	}
+	.onThe-image h1 {
+		font-size: 100pt;
+		margin-top: -15px;
+		margin-bottom: 5px;
+	}
+	.onThe-image .p1 {
+		font-size: 10pt;
+		margin-bottom: 55px;
+	}
+	.onThe-image button {
+		font-size: 10pt;
+		padding: 15px 50px;
+		margin-bottom: 50px;
+	}
+	.onThe-image .p2 {
+		font-size: 7pt;
+	}
+}
+@media screen and (max-width: 960px) {
+	.homepicture {
+		width: 894px;
+		height: 450px;
+		position: absolute;
+		top: 100px;
+		left: 35px;
+	}
+	.onThe-image {
+		position: absolute;
+		bottom: 30px;
+		left: 10px;
+	}
+	.onThe-image h1 {
+		font-size: 100pt;
+		margin-top: -15px;
+		margin-bottom: 5px;
+	}
+	.onThe-image .p1 {
+		font-size: 8pt;
+		margin-bottom: 55px;
+	}
+	.onThe-image button {
+		font-size: 10pt;
+		padding: 10px 35px;
+		margin-bottom: 50px;
+	}
+	.onThe-image .p2 {
+		font-size: 7pt;
+	}
+}
+@media screen and (max-width: 800px) {
+	.homepicture {
+		width: 734px;
+		height: 369px;
+		position: absolute;
+		top: 145px;
+		left: 35px;
+	}
+	.onThe-image {
+		position: absolute;
+		bottom: 20px;
+		left: 10px;
+	}
+	.onThe-image h1 {
+		font-size: 85pt;
+		margin-top: -15px;
+		margin-bottom: 5px;
+	}
+	.onThe-image .p1 {
+		font-size: 6pt;
+		margin-bottom: 45px;
+	}
+	.onThe-image button {
+		font-size: 8pt;
+		padding: 10px 25px;
+		margin-bottom: 30px;
+	}
+	.onThe-image .p2 {
+		font-size: 5pt;
+	}
+}
+@media screen and (max-width: 768px) {
+	.homepicture {
+		width: 702px;
+		height: 353px;
+		position: absolute;
+		top: 155px;
+		left: 35px;
+	}
+	.onThe-image {
+		position: absolute;
+		bottom: 20px;
+		left: 10px;
+	}
+	.onThe-image h1 {
+		font-size: 85pt;
+		margin-top: -15px;
+		margin-bottom: 5px;
+	}
+	.onThe-image .p1 {
+		font-size: 6pt;
+		margin-bottom: 45px;
+	}
+	.onThe-image button {
+		font-size: 8pt;
+		padding: 10px 25px;
+		margin-bottom: 30px;
+	}
+	.onThe-image .p2 {
+		font-size: 5pt;
+	}
+}
+@media screen and (max-width: 600px) {
+	.homepicture {
+		width: 534px;
+		height: 268px;
+		position: absolute;
+		top: 195px;
+		left: 35px;
+	}
+	.onThe-image {
+		position: absolute;
+		bottom: 20px;
+		left: 10px;
+	}
+	.onThe-image h1 {
+		font-size: 65pt;
+		margin-top: -15px;
+		margin-bottom: 5px;
+	}
+	.onThe-image .p1 {
+		font-size: 3.9pt;
+		margin-bottom: 35px;
+	}
+	.onThe-image button {
+		font-size: 5pt;
+		padding: 8px 20px;
+		margin-bottom: 20px;
+	}
+	.onThe-image .p2 {
+		font-size: 4pt;
+	}
+}
+@media screen and (max-width: 414px) {
+	.homepicture {
+		width: 348px;
+		height: 475px;
+		position: absolute;
+		top: 80px;
+		left: 30px;
+	}
+	.card {
+		display: none;
+	}
+	.smallCard {
+		display: block;
+	}
+	.onThe-image {
+		position: absolute;
+		bottom: 15px;
+		/*left: 8px;*/
+	}
+	.onThe-image h1 {
+		font-size: 70pt;
+		margin-top: -5px;
+		margin-bottom: 4px;
+	}
+	.onThe-image .p1 {
+		display: none;
+	}
+	.p1forSmall {
+		font-size: 5.5pt;
+		margin-bottom: 18px;
+		letter-spacing: 2px;
+		display: block;
+	}
+	.onThe-image button {
+		font-size: 6pt;
+		padding: 12px 30px;
+		margin-bottom: 138px;
+	}
+	.onThe-image .p2 {
+		font-size: 5pt;
+	}
+}
+@media screen and (max-width: 320px) {
+	.homepicture {
+		width: 254px;
+		height: 347px;
+		position: absolute;
+		top: 155px;
+		left: 30px;
+	}
+	.card {
+		display: none;
+	}
+	.smallCard {
+		display: block;
+	}
+	.onThe-image {
+		position: absolute;
+		bottom: 8px;
+		left: 4px;
+	}
+	.onThe-image h1 {
+		font-size: 50pt;
+		margin-top: -5px;
+		margin-bottom: 4px;
+	}
+	.onThe-image .p1 {
+		display: none;
+	}
+	.p1forSmall {
+		font-size: 3.5pt;
+		margin-bottom: 18px;
+		letter-spacing: 1.5px;
+		display: block;
+	}
+	.onThe-image button {
+		font-size: 4pt;
+		padding: 10px 20px;
+		margin-bottom: 95px;
+	}
+	.onThe-image .p2 {
+		font-size: 3pt;
+	}
+}
